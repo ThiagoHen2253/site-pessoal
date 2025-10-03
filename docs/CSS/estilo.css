@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, sans-serif; /* Fonte do texto */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b2d5ba; /* Cor de fundo */
-    color: #000000; /* Cor do texto padrão */
+    background-color: #b2d5ba;
+    color: #000000;
 }
 .cabecalho {
     background-color: #248f8d;
@@ -14,13 +14,9 @@ body {
     padding: 20px;
     flex-wrap: wrap; /*quebra de linha*/
 }
-
-/*nome e subtítulo */
 .nome-sub {
     max-width: 70%;
 }
-
-/* Estilo do título com o nome */
 #nome {
     margin: 0;
 }
@@ -35,20 +31,20 @@ body {
 
 /* Container principal que segura o menu e o conteúdo */
 .container {
-    display: flex; /* Flexbox: itens em linha */
+    display: flex;
     flex-direction: row;
     margin: 20px;
 }
 
 .menu {
-    width: 20%; /* vai 20% da largura da tela */
+    width: 20%;
     background-color: #61ada0;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 8px;
 }
 
-/* Remove padrão da lista */
+/* tira padrão da lista */
 .menu ul {
     list-style: none;
     padding: 0;
@@ -59,7 +55,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* Estilo padrão dos links */
+/* Estilo dos links */
 .menu a {
     color: white;
     text-decoration: none; /* Remove sublinhado */
@@ -97,3 +93,4 @@ ul {
 ul li {
     margin-bottom: 10px;
 }
+
